@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -17,9 +18,10 @@ int main()
     switch (eleccion)
     {
         case 1:
+            printf("Los numeros ingresados son: \n");
             for (i = 0; i < 10; i++)
             {
-                printf("Numero %d: %d\n", i + 1, lista[i]);
+                printf("%d)\t%d\n", i + 1, lista[i]);
             }
             break;
         case 2:
@@ -27,14 +29,14 @@ int main()
             {
                 op += lista[i];                
             }
-            printf("La suma de los numeros es: %d", op);
+            printf("La suma de los numeros ingresados es: %d\n", op);
             break;
         case 3:
             for (i = 0; i < 10; i++)
             {
                 op += lista[i];                
             }
-            printf("El promedio de los numeros es: %.2f", (float)op / 10);
+            printf("El promedio de los numeros ingresados es: %.2f\n", (float)op / 10);
             break;
         case 4:
             int mayor = 0;
@@ -45,7 +47,7 @@ int main()
                     mayor = lista[i];
                 }
             }
-            printf("El numero mayor es: %d", mayor);
+            printf("El numero mayor entre todos los numeros ingresados es: %d\n", mayor);
             break;
         case 5:
             int menor = lista[0];
@@ -56,12 +58,13 @@ int main()
                     menor = lista[i];
                 }
             }
-            printf("El numero menor es: %d", menor);
+            printf("El numero menor entre todos los numeros ingresados es: %d\n", menor);
             break;
         default:
             printf("Opcion incorrecta.");
             break;
     }
 
+    system("pause");
     return(0);
 }

@@ -22,22 +22,23 @@ int main()
     switch (eleccion)
     {
         case 1:
+            printf("Los numeros ingresados son: \n");
             for (i = 0; i < 10; i++)
             {
-                printf("Numero %d: %d\n", i + 1, lista[i]);
+                printf("%d)\t%d\n", i + 1, lista[i]);
             }
             break;
         case 2:
-            printf("El resultado de la suma es: %d\n", suma);
+            printf("La suma de los numeros ingresados es: %d\n", suma);
             break;
         case 3:
-            printf("El promedio de los numeros es: %.2f\n", (float)suma / 10);
+            printf("El promedio de los numeros ingresados es: %.2f\n", (float)suma / 10);
             break;
         case 4:
-            printf("El numero mayor es: %d\n", mayor);
+            printf("El numero mayor entre todos los numeros ingresados es: %d\n", mayor);
             break;
         case 5:
-            printf("El numero menor es: %d\n", menor);
+            printf("El numero menor entre todos los numeros ingresados es: %d\n", menor);
             break;
         default:
             printf("Opcion incorrecta.\n");

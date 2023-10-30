@@ -22,16 +22,16 @@ int main()
     switch (eleccion)
     {
         case 1:
-            printf("El resultado de la suma es: %.0f\n", suma);
+            printf("Operacion Suma.\nEl resultado de: %.0f + %.0f = %.0f\n", num1, num2, suma);
             break;
         case 2:
-            printf("El resultado de la suma es: %.0f\n", resta);
+            printf("Operacion Resta.\nEl resultado de: %.0f - %.0f = %.0f\n", num1, num2, resta);
             break;
         case 3:
-            printf("El resultado de la suma es: %.0f\n", multi);
+            printf("Operacion Multiplicacion.\nEl resultado de: %.0f x %.0f = %.0f\n", num1, num2, multi);
             break;
         case 4:
-            printf("El resultado de la suma es: %.2f\n", divi);
+            printf("Operacion Division.\nEl resultado de: %.0f / %.0f = %.2f\n", num1, num2, divi);
             break;
         default:
             printf("Opcion incorrecta.");

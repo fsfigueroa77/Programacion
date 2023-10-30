@@ -22,17 +22,17 @@ int main()
     
     case 2:
         float resta = num1 - num2;
-        printf("El resultado de la suma es: %.0f", resta);
+        printf("El resultado de la resta es: %.0f", resta);
         break;
     
     case 3:
         float multi = num1 * num2;
-        printf("El resultado de la suma es: %.0f", multi);
+        printf("El resultado de la multiplicacion es: %.0f", multi);
         break;
 
     case 4:
         float divi = num1 / num2;
-        printf("El resultado de la suma es: %.2f", divi);
+        printf("El resultado de la division es: %.2f", divi);
         break;
     default:
         printf("Opcion incorrecta.");
