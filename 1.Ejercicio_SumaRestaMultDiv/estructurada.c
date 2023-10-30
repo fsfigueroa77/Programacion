@@ -9,8 +9,8 @@ void calc_div(float num1, float num2);
 int main()
 {
     printf("Programa para calcular la suma, resta, multiplicacion y division entre dos numeros.\n");
-    int num1 = leernum();
-    int num2 = leernum();
+    num1 = leernum();
+    num2 = leernum();
     calc_suma(num1, num2);
     calc_resta(num1, num2);
     calc_mult(num1, num2);

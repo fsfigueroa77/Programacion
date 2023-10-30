@@ -1,5 +1,3 @@
-//1) Realizar un programa que muestre el area y volumen de una esfera considerando el radio ingresado por el usuario.//
-
 #include <stdio.h>
 #define pi 3.1415
 int radio;
