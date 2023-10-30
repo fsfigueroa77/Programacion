@@ -28,19 +28,19 @@ int main()
             }
             break;
         case 2:
-            printf("El resultado de la suma es: %d", suma);
+            printf("El resultado de la suma es: %d\n", suma);
             break;
         case 3:
-            printf("El promedio de los numeros es: %.2f", (float)suma / 10);
+            printf("El promedio de los numeros es: %.2f\n", (float)suma / 10);
             break;
         case 4:
-            printf("El numero mayor es: %d", mayor);
+            printf("El numero mayor es: %d\n", mayor);
             break;
         case 5:
-            printf("El numero menor es: %d", menor);
+            printf("El numero menor es: %d\n", menor);
             break;
         default:
-            printf("Opcion incorrecta.");
+            printf("Opcion incorrecta.\n");
             break;
     }
 
@@ -57,8 +57,7 @@ int leer_elec()
 }
 
 int op_suma()
-{
-    
+{    
     for (i = 0; i < 10; i++)
     {
         op += lista[i];                

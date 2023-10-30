@@ -34,7 +34,7 @@ int main()
             {
                 op += lista[i];                
             }
-            printf("La suma de los numeros es: %.2f", (float)op / 10);
+            printf("El promedio de los numeros es: %.2f", (float)op / 10);
             break;
         case 4:
             int mayor = 0;

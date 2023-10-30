@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 float num1, num2, suma, resta, multi, divi;
 int eleccion;
 float leernum();
@@ -21,22 +22,23 @@ int main()
     switch (eleccion)
     {
         case 1:
-            printf("El resultado de la suma es: %.0f", suma);
+            printf("El resultado de la suma es: %.0f\n", suma);
             break;
         case 2:
-            printf("El resultado de la suma es: %.0f", resta);
+            printf("El resultado de la suma es: %.0f\n", resta);
             break;
         case 3:
-            printf("El resultado de la suma es: %.0f", multi);
+            printf("El resultado de la suma es: %.0f\n", multi);
             break;
         case 4:
-            printf("El resultado de la suma es: %.2f", divi);
+            printf("El resultado de la suma es: %.2f\n", divi);
             break;
         default:
             printf("Opcion incorrecta.");
             break;
     }
 
+    system("pause");
     return(0);
 }
 
