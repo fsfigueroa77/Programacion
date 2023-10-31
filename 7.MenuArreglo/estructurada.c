@@ -15,10 +15,7 @@ int main()
     }
 
     eleccion = leer_elec();
-    suma = op_suma();
-    mayor = op_mayor();
-    menor = op_menor();
-
+    
     switch (eleccion)
     {
         case 1:
@@ -29,15 +26,19 @@ int main()
             }
             break;
         case 2:
+            suma = op_suma();
             printf("La suma de los numeros ingresados es: %d\n", suma);
             break;
         case 3:
+            suma = op_suma();
             printf("El promedio de los numeros ingresados es: %.2f\n", (float)suma / 10);
             break;
         case 4:
+            mayor = op_mayor();
             printf("El numero mayor entre todos los numeros ingresados es: %d\n", mayor);
             break;
         case 5:
+            menor = op_menor();
             printf("El numero menor entre todos los numeros ingresados es: %d\n", menor);
             break;
         default:
