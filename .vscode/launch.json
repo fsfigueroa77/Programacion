@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/fsfig/Documents/GitHub/Programacion/7.MenuArreglo",
-      "program": "c:/Users/fsfig/Documents/GitHub/Programacion/7.MenuArreglo/build/Debug/outDebug",
+      "cwd": "c:/Users/fsfig/Documents/GitHub/Programacion/Ejercicios1/Ejercicio_1",
+      "program": "c:/Users/fsfig/Documents/GitHub/Programacion/Ejercicios1/Ejercicio_1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
