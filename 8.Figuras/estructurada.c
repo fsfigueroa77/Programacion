@@ -37,26 +37,26 @@ int leer_menu()
 	switch (eleccion)
 	{
 		case 1:
-			printf("====================================================================================================\nAnalisis de un cuadrado.\nIngrese el valor del lado: ");
+			printf("==================================================\nAnalisis de un cuadrado.\nIngrese el valor del lado: ");
 			scanf("%f", &base);
 			leer_cuadrado();
 			break;
 		case 2:
-			printf("====================================================================================================\nAnalisis de un rectangulo.\nIngrese el valor de la base: ");
+			printf("==================================================\nAnalisis de un rectangulo.\nIngrese el valor de la base: ");
 			scanf("%f", &base);
 			printf("Ingrese el valor de la altura: ");
 			scanf("%f", &altura);
 			leer_rectangulo();
 			break;
 		case 3:
-			printf("====================================================================================================\nAnalisis de un triangulo.\nIngrese el valor de la base: ");
+			printf("==================================================\nAnalisis de un triangulo.\nIngrese el valor de la base: ");
 			scanf("%f", &base);
 			printf("Ingrese el valor de la altura: ");
 			scanf("%f", &altura);
 			leer_triangulo();			
 			break;
 		case 4:
-			printf("====================================================================================================\nAnalisis de un circulo.\nIngrese el valor del radio: ");
+			printf("==================================================\nAnalisis de un circulo.\nIngrese el valor del radio: ");
 			scanf("%f", &radio);
 			leer_circulo();
 			break;	
