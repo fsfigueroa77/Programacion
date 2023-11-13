@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/fsfig/Documents/GitHub/Programacion",
-      "program": "c:/Users/fsfig/Documents/GitHub/Programacion/build/Debug/outDebug",
+      "cwd": "c:/Users/fsfig/Documents/GitHub/Programacion/11.Matrix",
+      "program": "c:/Users/fsfig/Documents/GitHub/Programacion/11.Matrix/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
