@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/fsfig/Documents/GitHub/Programacion/frutasxd",
-      "program": "c:/Users/fsfig/Documents/GitHub/Programacion/frutasxd/build/Debug/outDebug",
+      "cwd": "c:/Users/fsfig/Documents/GitHub/Programacion/gasolinera",
+      "program": "c:/Users/fsfig/Documents/GitHub/Programacion/gasolinera/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
