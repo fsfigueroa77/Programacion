@@ -24,8 +24,7 @@ int main(){
                         operaciones(&auto_dia, &desc_auto_dia);
                     }else{
                         operaciones(&auto_dia, &no_desc);
-                    }
-                    
+                    }                    
                 }else{
                     printf("\nCuantos dias alquilo el auto: ");
                     scanf("%f", &km);
