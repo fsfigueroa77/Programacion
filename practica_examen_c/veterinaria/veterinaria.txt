@@ -1,0 +1,14 @@
+desarrolle un programa que calcule el costo de atencion en una veterinaria
+
+Emergencia 40
+Control 25
+Vacunas 30
+
+Emergencia. Consultar si hay costos de materiales adicionales. (Generar aleatoreamente)
+
+Control. Desea agregar el corte y baño. $20
+
+Vacunas. Preguntar si desea certificado $5
+
+Mostrar al Usuario, cuales son los servicios recibidos el costo unitario y el valor final a pagar.
+

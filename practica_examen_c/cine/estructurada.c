@@ -50,10 +50,9 @@ void cantidad(float *fila3){
         if(*fila3 < 1){
             printf("Error! El numero de entradas debe ser mayor que 0.\n");
         }
-    }
-    
+    }    
 }
 
 void tarjeta(float *fila4){
-
+    
 }
